@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <audio id="music" src="songs/fundo.mp3" loop autoplay></audio>
+    <audio src="songs/smw_jump.mp3" id="pulo"></audio>
+    <audio src="songs/94.GameOver.mp3" id="game-over"></audio>
+    <main>
+        <div class="jogo">
+            <img src="imagens/super-mario.gif" class="mario">
+            <img src="imagens/tubo.png" class="tubo">
+            <img src="imagens/chao.png" class="chao">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; cleilsonalvino</p>
+    </footer>
+    <button class="btn-class-name" onclick="pular()">
+        <span class="back"></span>
+        <span class="front"></span>
+      </button>
+      
+    <script src="script/script.js"></script>
+    <script src="script/audio.js"></script>
+</body>
+</html>
