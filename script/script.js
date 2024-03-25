@@ -44,5 +44,6 @@ function pular() {
 
 
 function pontos(){
-     
+     const pontos = document.getElementsById("pontuacao")
+
 }
