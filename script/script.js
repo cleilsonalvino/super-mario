@@ -41,3 +41,8 @@ function pular() {
     const pulo = document.querySelector('#pulo')
     pulo.play()
 }
+
+
+function pontos(){
+
+}
