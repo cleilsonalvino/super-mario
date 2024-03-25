@@ -44,5 +44,5 @@ function pular() {
 
 
 function pontos(){
-
+     
 }
